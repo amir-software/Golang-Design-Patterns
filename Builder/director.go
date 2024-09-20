@@ -1,6 +1,6 @@
 package main
 
-// #### Director handle the order and the actions that must be take care of the biuling
+// #### Director handle the order and the actions that must be take care of the builing
 
 type Director struct {
 	builder IBuilder
