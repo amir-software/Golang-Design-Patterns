@@ -1,2 +1,2 @@
 # Golang-Design-Patterns
-The classic Design Patters (gang of four) implementing by Golang
+The classic Design Patters (gang of four) implemented by Golang
