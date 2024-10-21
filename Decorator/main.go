@@ -1,11 +1,16 @@
 package main
 
-// Simple object with some properties
-type Apartment struct{
+import "fmt"
+
+
+
+func main (){
+	houseA := Apartment{}
+
+	houseAWithStone := stoneDecorator{house: &houseA}
+
+	houseArea := houseAWithStone.getArea()
+
+	fmt.Println(houseArea)
 
 }
-
-func (a *Apartment) getArea () int{
-	return 95
-}
-

@@ -16,5 +16,5 @@ type stoneDecorator struct{ // Actually decorate the House obj with Wood
 
 func (w *stoneDecorator) getArea() int{
 	housePrice := w.house.getArea()
-	return housePrice + 25
+	return housePrice + 45
 }
