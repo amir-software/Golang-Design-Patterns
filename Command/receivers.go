@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// This is actually the login of the programm (Business Rule - Logic)
+// This is actually the logic of the programm (Business Rule - Logic)
 type LightReceiver struct{}
 
 func (l *LightReceiver) TurnOn() {
